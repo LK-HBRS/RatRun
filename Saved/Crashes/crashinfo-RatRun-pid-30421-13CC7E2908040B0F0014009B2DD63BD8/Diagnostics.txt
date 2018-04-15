@@ -1,0 +1,41 @@
+Generating report for minidump
+
+Application version 4.19.1.0
+ ... built from changelist 0
+
+OS version Linux 4.13.0-38-generic (network name: DNS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000020"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!CommonLinuxCrashHandler(FGenericCrashContext const&) + some bytes
+Unknown!PlatformCrashHandler(int, siginfo_t*, void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x13150) [0x7fee775f6150] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(+0x17efd2) [0x7fee6ad9cfd2] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/dri/i965_dri.so(+0x400844) [0x7fede707e844] + some bytes
+Unknown!FOpenGLDynamicRHI::RHICreateUniformBuffer(void const*, FRHIUniformBufferLayout const&, EUniformBufferUsage) + some bytes
+Unknown!TUniformBufferRef<FViewUniformShaderParameters>::CreateUniformBufferImmediate(FViewUniformShaderParameters const&, EUniformBufferUsage) + some bytes
+Unknown!/home/lk/UnrealEngine-release/Engine/Binaries/Linux/libUE4Editor-SlateRHIRenderer.so(+0x7d56b) [0x7fedfb2a156b] + some bytes
+Unknown!FSlateRHIRenderingPolicy::DrawElements(FRHICommandListImmediate&, FSlateBackBuffer&, TRefCountPtr<FRHITexture2D>&, TRefCountPtr<FRHITexture2D>&, TArray<FSlateRenderBatch, FDefaultAllocator> const&, TArray<FSlateClippingState, FDefaultAllocator>, FSlateRenderingOptions const&) + some bytes
+Unknown!FSlateRHIRenderer::DrawWindow_RenderThread(FRHICommandListImmediate&, FSlateRHIRenderer::FViewportInfo&, FSlateWindowElementList&, bool, bool) + some bytes
+Unknown!/home/lk/UnrealEngine-release/Engine/Binaries/Linux/libUE4Editor-SlateRHIRenderer.so(+0x90a0b) [0x7fedfb2b4a0b] + some bytes
+Unknown!FNamedTaskThread::ProcessTasksNamedThread(int, bool) + some bytes
+Unknown!FNamedTaskThread::ProcessTasksUntilQuit(int) + some bytes
+Unknown!RenderingThreadMain(FEvent*) + some bytes
+Unknown!FRenderingThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::_ThreadProc(void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x77fc) [0x7fee775ea7fc] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fee6ad32b5f] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

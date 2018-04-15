@@ -1,0 +1,42 @@
+Generating report for minidump
+
+Application version 4.19.1.0
+ ... built from changelist 0
+
+OS version Linux 4.13.0-38-generic (network name: DNS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!CommonLinuxCrashHandler(FGenericCrashContext const&) + some bytes
+Unknown!PlatformCrashHandler(int, siginfo_t*, void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x13150) [0x7fa9ef96e150] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/dri/i965_dri.so(+0x3f9410) [0x7fa95f3f3410] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/dri/i965_dri.so(+0x1445a1) [0x7fa95f13e5a1] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/dri/i965_dri.so(+0x1450df) [0x7fa95f13f0df] + some bytes
+Unknown!FOpenGLDynamicRHI::RHIGetRenderQueryResult(FRHIRenderQuery*, unsigned long long&, bool) + some bytes
+Unknown!FRealtimeGPUProfilerEvent::GatherQueryResults(FRHICommandListImmediate&) + some bytes
+Unknown!FRealtimeGPUProfilerFrame::UpdateStats(FRHICommandListImmediate&) + some bytes
+Unknown!FRealtimeGPUProfiler::EndFrame(FRHICommandListImmediate&) + some bytes
+/home/lk/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor!FEngineLoop::Tick()::EURCMacro_EndFrame::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) + some bytes [Runtime/RHI/Public/RHICommandList.h:4491]
+/home/lk/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor!TGraphTask<FEngineLoop::Tick()::EURCMacro_EndFrame>::ExecuteTask(TArray<FBaseGraphTask*, FDefaultAllocator>&, ENamedThreads::Type) + some bytes [Runtime/Core/Public/UObject/NameTypes.h:699]
+Unknown!FNamedTaskThread::ProcessTasksNamedThread(int, bool) + some bytes
+Unknown!FNamedTaskThread::ProcessTasksUntilQuit(int) + some bytes
+Unknown!RenderingThreadMain(FEvent*) + some bytes
+Unknown!FRenderingThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::_ThreadProc(void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x77fc) [0x7fa9ef9627fc] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fa9e30aab5f] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

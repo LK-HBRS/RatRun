@@ -1,0 +1,46 @@
+Generating report for minidump
+
+Application version 4.19.1.0
+ ... built from changelist 0
+
+OS version Linux 4.13.0-38-generic (network name: DNS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "Ensure condition failed: !InputKeys.Contains(Key) [File:/home/lk/UnrealEngine-release/Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp] [Line: 703] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!NewReportEnsure(wchar_t const*) + some bytes
+Unknown!FDebug::EnsureFailed(char const*, char const*, int, wchar_t const*) + some bytes
+Unknown!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse(bool, char const*, char const*, int, wchar_t const*, ...) + some bytes
+Unknown!EKeys::AddKey(FKeyDetails const&) + some bytes
+Unknown!FInputKeyManager::GetKeyFromCodes(unsigned int, unsigned int) const + some bytes
+Unknown!FSlateApplication::OnKeyUp(int, unsigned int, bool) + some bytes
+Unknown!FLinuxApplication::ProcessDeferredMessage(SDL_Event) + some bytes
+Unknown!FLinuxApplication::AddPendingEvent(SDL_Event) + some bytes
+Unknown!FLinuxPlatformApplicationMisc::PumpMessages(bool) + some bytes
+Unknown!FSlateApplication::TickPlatform(float) + some bytes
+Unknown!FSlateApplication::AddModalWindow(TSharedRef<SWindow, (ESPMode)0>, TSharedPtr<SWidget const, (ESPMode)0>, bool) + some bytes
+Unknown!FSourceControlWindows::PromptForCheckin(bool, TArray<FString, FDefaultAllocator> const&, TArray<FString, FDefaultAllocator> const&, TArray<FString, FDefaultAllocator> const&) + some bytes
+Unknown!FSourceControlWindows::ChoosePackagesToCheckInCompleted(TArray<UPackage*, FDefaultAllocator> const&, TArray<FString, FDefaultAllocator> const&, TArray<FString, FDefaultAllocator> const&) + some bytes
+Unknown!FSourceControlWindows::ChoosePackagesToCheckInCallback(TSharedRef<ISourceControlOperation, (ESPMode)1> const&, ECommandResult::Type) + some bytes
+Unknown!TBaseStaticDelegateInstance<void (TSharedRef<ISourceControlOperation, (ESPMode)1> const&, ECommandResult::Type)>::ExecuteIfSafe(TSharedRef<ISourceControlOperation, (ESPMode)1> const&, ECommandResult::Type) const + some bytes
+Unknown!FGitSourceControlProvider::Tick() + some bytes
+Unknown!FSourceControlModule::Tick() + some bytes
+Unknown!UEditorEngine::Tick(float, bool) + some bytes
+Unknown!UUnrealEdEngine::Tick(float, bool) + some bytes
+Unknown!FEngineLoop::Tick() + some bytes
+Unknown!GuardedMain(wchar_t const*) + some bytes
+Unknown!CommonLinuxMain(int, char**, int (*)(wchar_t const*)) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf1) [0x7fa9e2fb71c1] + some bytes
+Unknown!/home/lk/UnrealEngine-release/Engine/Binaries/Linux/UE4Editor(_start+0x2a) [0x41684a] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

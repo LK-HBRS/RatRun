@@ -1,0 +1,953 @@
+﻿Log file open, 04/15/18 00:36:09
+LogInit: Display: Running engine for game: RatRun
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1380496138) SRandInit(-1380496138).
+LogInit: Read version file with build ID '470fb220-44e5-4334-9d64-4ff2c883d4ef'
+LogInit: Registered custom module enumerator with build ID '470fb220-44e5-4334-9d64-4ff2c883d4ef'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.053491
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-Paper2D.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-Paper2DEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-PaperSpriteSheetImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-PaperTiledImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-SmartSnapping.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Linux/libUE4Editor-AndroidPermission.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Linux/libUE4Editor-ProceduralMeshComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Linux/libUE4Editor-ProceduralMeshComponentEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Linux/libUE4Editor-LiveLink.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Linux/libUE4Editor-LiveLinkEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Linux/libUE4Editor-RuntimePhysXCooking.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Linux/libUE4Editor-CustomMeshComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Linux/libUE4Editor-SteamVR.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Linux/libUE4Editor-SteamVRController.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Linux/libUE4Editor-ExampleDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Linux/libUE4Editor-AndroidDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Linux/libUE4Editor-MobilePatchingUtils.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Linux/libUE4Editor-LocationServicesBPLibrary.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Linux/libUE4Editor-ImmediatePhysics.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Linux/libUE4Editor-ImmediatePhysicsEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Linux/libUE4Editor-ArchVisCharacter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Linux/libUE4Editor-CableComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Linux/libUE4Editor-PhysXVehicles.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Linux/libUE4Editor-PhysXVehiclesEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Binaries/Linux/libUE4Editor-LinuxDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Linux/libUE4Editor-TcpMessaging.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Linux/libUE4Editor-UdpMessaging.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Linux/libUE4Editor-MatineeToLevelSequence.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Linux/libUE4Editor-LevelSequenceEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Linux/libUE4Editor-ActorSequence.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Linux/libUE4Editor-DatasmithContent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Linux/libUE4Editor-MediaCompositing.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Linux/libUE4Editor-MediaCompositingEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Linux/libUE4Editor-LinearTimecode.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Linux/libUE4Editor-MediaPlayerEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMedia.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Linux/libUE4Editor-AndroidMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Linux/libUE4Editor-AndroidMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Linux/libUE4Editor-OnlineSubsystem.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Linux/libUE4Editor-OnlineSubsystemUtils.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Linux/libUE4Editor-OnlineBlueprintSupport.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Linux/libUE4Editor-OnlineSubsystemNull.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Linux/libUE4Editor-SpeedTreeImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Linux/libUE4Editor-FacialAnimation.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Linux/libUE4Editor-FacialAnimationEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Linux/libUE4Editor-CryptoKeys.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Linux/libUE4Editor-CryptoKeysOpenSSL.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Linux/libUE4Editor-PluginBrowser.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Linux/libUE4Editor-GameplayTagsEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Linux/libUE4Editor-AssetManagerEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Linux/libUE4Editor-MobileLauncherProfileWizard.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Linux/libUE4Editor-DataValidation.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Linux/libUE4Editor-LightPropagationVolumeRuntime.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Linux/libUE4Editor-LightPropagationVolumeEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Linux/libUE4Editor-GitSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Linux/libUE4Editor-CLionSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Binaries/Linux/libUE4Editor-CodeLiteSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Linux/libUE4Editor-PerforceSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/KDevelopSourceCodeAccess/Binaries/Linux/libUE4Editor-KDevelopSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/NullSourceCodeAccess/Binaries/Linux/libUE4Editor-NullSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Linux/libUE4Editor-SubversionSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Linux/libUE4Editor-VisualStudioCodeSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Linux/libUE4Editor-UObjectPlugin.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Linux/libUE4Editor-NUTUnrealEngine4.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Linux/libUE4Editor-NetcodeUnitTest.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Linux/libUE4Editor-CharacterAI.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Linux/libUE4Editor-AlembicImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Linux/libUE4Editor-AlembicLibrary.so (API version 0).
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AlembicImporter
+LogStreaming: Display: Took  1.056s to configure plugins.
+LogInit: Using libcurl 7.57.0
+LogInit:  - built for x86_64-pc-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: Build: ++UE4+Release-4.19-CL-0
+LogInit: Engine Version: 4.19.1-0+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-0+++UE4+Release-4.19
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 14 2018 19:48:32
+LogInit: Compiled with Clang: 4.0.1 (tags/RELEASE_401/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: /home/lk/UnrealEngine-release/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.14-22.36.10:877][  0]LogInit: Initializing SDL.
+[2018.04.14-22.36.10:905][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.04.14-22.36.10:905][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.04.14-22.36.10:905][  0]LogInit: Display metrics:
+[2018.04.14-22.36.10:905][  0]LogInit:   PrimaryDisplayWidth: 1366
+[2018.04.14-22.36.10:905][  0]LogInit:   PrimaryDisplayHeight: 768
+[2018.04.14-22.36.10:905][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.04.14-22.36.10:905][  0]LogInit:     Left=0, Top=27, Right=1366, Bottom=768
+[2018.04.14-22.36.10:905][  0]LogInit:   VirtualDisplayRect:
+[2018.04.14-22.36.10:905][  0]LogInit:     Left=0, Top=27, Right=1366, Bottom=768
+[2018.04.14-22.36.10:905][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.04.14-22.36.10:905][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.04.14-22.36.10:905][  0]LogInit:   Number of monitors: 1
+[2018.04.14-22.36.10:905][  0]LogInit:     Monitor 0
+[2018.04.14-22.36.10:905][  0]LogInit:       Name: XWAYLAND0 15"
+[2018.04.14-22.36.10:905][  0]LogInit:       ID: display0
+[2018.04.14-22.36.10:905][  0]LogInit:       NativeWidth: 1366
+[2018.04.14-22.36.10:905][  0]LogInit:       NativeHeight: 768
+[2018.04.14-22.36.10:905][  0]LogInit:       bIsPrimary: true
+[2018.04.14-22.36.10:906][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.04.14-22.36.10:906][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.04.14-22.36.10:918][  0]LogInit: Linux hardware info:
+[2018.04.14-22.36.10:918][  0]LogInit:  - we are the first instance of this executable
+[2018.04.14-22.36.10:918][  0]LogInit:  - this process' id (pid) is 26345, parent process' id (ppid) is 2130
+[2018.04.14-22.36.10:918][  0]LogInit:  - we are not running under debugger
+[2018.04.14-22.36.10:918][  0]LogInit:  - machine network name is 'DNS'
+[2018.04.14-22.36.10:918][  0]LogInit:  - user name is 'lk' (lk)
+[2018.04.14-22.36.10:918][  0]LogInit:  - we're logged in locally
+[2018.04.14-22.36.10:918][  0]LogInit:  - we're running with rendering
+[2018.04.14-22.36.10:918][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz' (signature: 0x406E3)
+[2018.04.14-22.36.10:918][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.04.14-22.36.10:918][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.04.14-22.36.10:918][  0]LogInit:  - Cache line size: 64
+[2018.04.14-22.36.10:918][  0]LogInit:  - Memory allocator used: binned2
+[2018.04.14-22.36.10:918][  0]LogLinux: Benchmarking clocks:
+[2018.04.14-22.36.10:918][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 37725450 (37725K, 38M) calls per second without zero deltas.
+[2018.04.14-22.36.10:919][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 38727066 (38727K, 39M) calls per second without zero deltas.
+[2018.04.14-22.36.10:919][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2728530 (2729K, 3M) calls per second without zero deltas.
+[2018.04.14-22.36.10:919][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 112025153 (112025K, 112M) calls per second with 99.999768% zero deltas.
+[2018.04.14-22.36.10:919][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.04.14-22.36.10:919][  0]LogInit: Linux-specific commandline switches:
+[2018.04.14-22.36.10:919][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.04.14-22.36.10:919][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.04.14-22.36.10:919][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.04.14-22.36.10:919][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.04.14-22.36.10:919][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.04.14-22.36.10:919][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.04.14-22.36.10:919][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.04.14-22.36.10:919][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7876 MB, 8065524 KB, 8259096576 bytes)
+[2018.04.14-22.36.11:055][  0]LogInit: Using OS detected language (de-DE).
+[2018.04.14-22.36.11:055][  0]LogInit: Using OS detected locale (de-DE).
+[2018.04.14-22.36.11:066][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2018.04.14-22.36.11:602][  0]LogStreaming: Display: Took  0.547s to EndInitTextLocalization.
+[2018.04.14-22.36.11:749][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.14-22.36.11:749][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.14-22.36.12:956][  0]LogRHI: Initializing OpenGL RHI
+[2018.04.14-22.36.12:956][  0]LogRHI:   GL_VENDOR: Intel Open Source Technology Center
+[2018.04.14-22.36.12:956][  0]LogRHI:   GL_RENDERER: Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2) 
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_VERSION: 4.5 (Core Profile) Mesa 17.2.8
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.50
+[2018.04.14-22.36.12:957][  0]LogRHI: OpenGL Extensions:
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_3DFX_texture_compression_FXT1
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_conservative_depth
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_draw_buffers_blend
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_shader_stencil_export
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_shader_trinary_minmax
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ANGLE_texture_compression_dxt3
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ANGLE_texture_compression_dxt5
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_APPLE_object_purgeable
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_base_instance
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_clear_texture
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_clip_control
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_compute_shader
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_copy_image
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_cull_distance
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_debug_output
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_derivative_control
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.04.14-22.36.12:957][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_multi_bind
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_point_sprite
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_robustness
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_sample_shading
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_clock
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_objects
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_precision
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_stencil_export
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_sync
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.04.14-22.36.12:958][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_float
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_gather
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_rg
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_storage
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_texture_view
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_timer_query
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ARB_viewport_array
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ATI_blend_equation_separate
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_ATI_texture_float
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_abgr
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_packed_float
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_shader_samples_identical
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_texture_array
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.04.14-22.36.12:959][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_integer
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_snorm
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_timer_query
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_transform_feedback
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_IBM_multimode_draw_arrays
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_INTEL_conservative_rasterization
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_INTEL_performance_query
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_debug
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_no_error
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_robustness
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_texture_compression_astc_ldr
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_KHR_texture_compression_astc_sliced_3d
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_MESA_pack_invert
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_MESA_shader_integer_functions
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_MESA_texture_signed_rgba
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_NV_conditional_render
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_NV_depth_clamp
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_NV_texture_barrier
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_OES_EGL_image
+[2018.04.14-22.36.12:960][  0]LogRHI:   GL_S3_s3tc
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_SAMPLES: 16
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 16
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 16
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 16
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.04.14-22.36.12:983][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.04.14-22.36.12:983][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 5, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.04.14-22.36.13:001][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Dokumente/Unreal Projects/RatRun/Intermediate/Shaders/WorkingDirectory/26345/).
+[2018.04.14-22.36.13:001][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../Dokumente/Unreal Projects/RatRun/Intermediate/Shaders/tmp/0003E4090D04000F00240001AE0330FE/'.
+[2018.04.14-22.36.13:001][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.14-22.36.15:339][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.14-22.36.15:468][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.14-22.36.15:613][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.14-22.36.15:748][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.14-22.36.15:893][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.14-22.36.16:020][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.14-22.36.16:164][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.14-22.36.16:301][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.14-22.36.16:445][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.14-22.36.16:584][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.14-22.36.16:728][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.14-22.36.16:863][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.14-22.36.17:143][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.14-22.36.17:150][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.14-22.36.17:289][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.14-22.36.17:289][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.04.14-22.36.17:747][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.14-22.36.17:748][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.04.14-22.36.17:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Dokumente/Unreal Projects/RatRun/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.14-22.36.17:748][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.14-22.36.17:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.14-22.36.17:748][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.04.14-22.36.17:749][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.04.14-22.36.17:749][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.04.14-22.36.17:749][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.04.14-22.36.17:769][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.04.14-22.36.17:777][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.14-22.36.17:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.04.14-22.36.17:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.04.14-22.36.17:885][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2018.04.14-22.36.18:859][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.04.14-22.36.19:287][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.14-22.36.19:287][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.14-22.36.19:287][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.14-22.36.19:287][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.04.14-22.36.19:287][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.14-22.36.19:287][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.04.14-22.36.19:554][  0]LogNetVersion: RatRun , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3221719670)
+[2018.04.14-22.36.20:663][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.029409 seconds
+[2018.04.14-22.36.20:681][  0]LogUObjectArray: 36073 objects as part of root set at end of initial load.
+[2018.04.14-22.36.20:681][  0]LogUObjectAllocator: 7176912 out of 0 bytes used by permanent object pool.
+[2018.04.14-22.36.20:681][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.14-22.36.20:718][  0]LogModuleManager: Warning: No filename provided for module ALAudio
+[2018.04.14-22.36.20:718][  0]LogModuleManager: Warning: ModuleManager: Unable to load module 'ALAudio' because the file '/home/lk/UnrealEngine-release/Engine/Binaries/Linux/' was not found.
+[2018.04.14-22.36.20:928][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.04.14-22.36.21:935][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.14-22.36.21:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.14-22.36.21:936][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:936][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:936][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:936][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:937][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.14-22.36.21:937][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.14-22.36.21:938][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:938][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:939][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.14-22.36.21:939][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.14-22.36.21:939][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:939][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:940][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:940][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:941][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.14-22.36.21:941][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.14-22.36.21:941][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:941][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:942][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.14-22.36.21:942][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.14-22.36.21:946][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.04.14-22.36.21:946][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.04.14-22.36.21:947][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:947][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:947][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:947][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:948][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.04.14-22.36.21:948][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.04.14-22.36.21:949][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:949][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:950][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:950][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:950][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.04.14-22.36.21:951][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.04.14-22.36.21:951][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:951][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:952][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:952][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:952][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.04.14-22.36.21:952][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.04.14-22.36.21:953][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:953][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:954][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:954][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:954][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.04.14-22.36.21:954][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.04.14-22.36.21:955][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:955][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:956][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:956][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:956][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.04.14-22.36.21:956][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.04.14-22.36.21:957][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:957][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:958][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:958][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:958][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.04.14-22.36.21:958][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.04.14-22.36.21:959][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:959][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:959][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:959][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:960][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.04.14-22.36.21:960][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.04.14-22.36.21:961][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:961][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:961][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:961][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:962][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.04.14-22.36.21:962][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.04.14-22.36.21:963][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:963][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.21:964][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.14-22.36.21:964][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.14-22.36.26:553][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.14-22.36.26:592][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.14-22.36.29:396][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.14-22.36.32:718][  0]SourceControl: Source control is disabled
+[2018.04.14-22.36.32:718][  0]SourceControl: Source control is disabled
+[2018.04.14-22.36.32:883][  0]SourceControl: Source control is disabled
+[2018.04.14-22.36.33:022][  0]SourceControl: Source control is disabled
+[2018.04.14-22.36.34:600][  0]LogEngine: Initializing Engine...
+[2018.04.14-22.36.34:600][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.14-22.36.34:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-22.36.34:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-22.36.35:593][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.04.14-22.36.35:603][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.04.14-22.36.35:604][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.04.14-22.36.35:612][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.04.14-22.36.35:671][  0]LogInit: FAudioDevice initialized.
+[2018.04.14-22.36.35:730][  0]LogDerivedDataCache: Saved boot cache 0.06s 89MB ../../../../Dokumente/Unreal Projects/RatRun/DerivedDataCache/Boot.ddc.
+[2018.04.14-22.36.35:743][  0]LogInit: Texture streaming: Enabled
+[2018.04.14-22.36.36:838][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.14-22.36.37:275][  0]LogInit: Transaction tracking system initialized
+[2018.04.14-22.36.38:137][  0]BlueprintLog: New page: Editor Load
+[2018.04.14-22.36.40:450][  0]LocalizationService: Localization service is disabled
+[2018.04.14-22.36.41:844][  0]LogConsoleResponse: Display: 
+[2018.04.14-22.36.42:141][  0]LogFileCache: Scanning file cache for directory '/home/lk/Dokumente/Unreal Projects/RatRun/Content/' took 0.00s
+[2018.04.14-22.36.42:141][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.14-22.36.42:141][  0]LogCook: Display: Mobile HDR setting 0
+[2018.04.14-22.36.42:141][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.14-22.36.42:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-22.36.42:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-22.36.44:890][  0]SourceControl: Source control is disabled
+[2018.04.14-22.36.44:891][  0]Cmd: MAP LOAD FILE="../../../../Dokumente/Unreal Projects/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-22.36.44:899][  0]LightingResults: New page: Lighting Build
+[2018.04.14-22.36.44:984][  0]MapCheck: New page: Map Check
+[2018.04.14-22.36.44:984][  0]LightingResults: New page: Lighting Build
+[2018.04.14-22.36.45:814][  0]LogTexture: Display: Building textures: 2DCharacter_RunAnimAtlas (BGRA8, 1024X1024)
+[2018.04.14-22.36.45:814][  0]LogTexture: Display: Building textures: 2DCharacter_IdleAnimAtlas (BGRA8, 1024X1024)
+[2018.04.14-22.36.45:814][  0]LogTexture: Display: Building textures: Bokeh_5Sides (BGRA8, 1024X1024)
+[2018.04.14-22.36.45:814][  0]LogTexture: Display: Building textures: T_ScreenDirt02_w (AutoDXT, 1920X1080)
+[2018.04.14-22.36.46:367][  0]LogTexture: Display: Building textures: 2DBackground (BGRA8, 512X512)
+[2018.04.14-22.36.46:367][  0]LogTexture: Display: Building textures: 2DBackgroundBlockAtlas (AutoDXT, 1024X1024)
+[2018.04.14-22.36.46:367][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-22.36.46:402][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-22.36.46:446][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-22.36.46:482][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36,155ms to complete.
+[2018.04.14-22.36.46:483][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.592
+[2018.04.14-22.36.46:488][  0]LogLinux: Scale at X=43.000000, Y=37.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.04.14-22.36.46:488][  0]LogLinux: Scale at X=688.000000, Y=402.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.04.14-22.36.46:525][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.04.14-22.36.46:605][  0]LogCollectionManager: Loaded 0 collections in 0.001063 seconds
+[2018.04.14-22.36.46:625][  0]LogFileCache: Scanning file cache for directory '/home/lk/Dokumente/Unreal Projects/RatRun/Saved/Collections/' took 0.00s
+[2018.04.14-22.36.46:625][  0]LogFileCache: Scanning file cache for directory '/home/lk/Dokumente/Unreal Projects/RatRun/Content/Developers/lk/Collections/' took 0.00s
+[2018.04.14-22.36.46:625][  0]LogFileCache: Scanning file cache for directory '/home/lk/Dokumente/Unreal Projects/RatRun/Content/Collections/' took 0.00s
+[2018.04.14-22.36.46:625][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2423 classes and 536 folders.
+[2018.04.14-22.36.46:628][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.14-22.36.46:836][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.14-22.36.46:860][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.14-22.36.46:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.14-22.36.47:106][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.14-22.36.47:106][  0]LogLoad: (Engine Initialization) Total time: 39.13 seconds
+[2018.04.14-22.36.47:106][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.14-22.36.47:446][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.14-22.36.47:458][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.14-22.36.47:480][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.14-22.36.47:533][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2018.04.14-22.36.47:626][  0]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-22.36.47:626][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.04.14-22.36.47:677][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2018.04.14-22.36.50:741][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.04.14-22.36.50:741][  0]LogInit: Adding external input plugin.
+[2018.04.14-22.36.50:760][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.14-22.36.50:789][  0]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.14-22.36.50:815][  1]LogAssetRegistry: Asset discovery search completed in 32.9310 seconds
+[2018.04.14-22.36.50:817][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.14-22.36.50:817][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2018.04.14-22.37.01:846][763]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.04.14-22.37.01:901][765]LogLinux: Setting swap interval to 'Immediate'
+[2018.04.14-22.37.14:815][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-22.37.15:013][663]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.04.14-22.37.15:041][663]LogSlate: Window 'RatRun - Unreal Editor' being destroyed
+[2018.04.14-22.37.15:119][664]Cmd: QUIT_EDITOR
+[2018.04.14-22.37.15:159][664]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.14-22.37.15:159][664]LogExit: Preparing to exit.
+[2018.04.14-22.37.15:735][664]LogExit: Editor shut down
+[2018.04.14-22.37.15:735][664]LogExit: Transaction tracking system shut down
+[2018.04.14-22.37.15:890][664]LogExit: Object subsystem successfully closed.
+[2018.04.14-22.37.15:901][664]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (521)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module DesktopPlatform (519)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module SceneOutliner (517)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module AddContentDialog (515)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module WidgetCarousel (514)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module EditorWidgets (511)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module CollectionManager (509)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module StatsViewer (507)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module FoliageEdit (505)
+[2018.04.14-22.37.15:943][664]LogModuleManager: Shutting down and abandoning module LandscapeEditor (503)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module MeshPaintMode (501)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (499)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module ActorPickerMode (497)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module GeometryMode (495)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module TextureAlignMode (493)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module BspMode (491)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (489)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module HardwareSurvey (487)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (485)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module AutomationWorker (481)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module CharacterAI (479)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module SmartSnapping (477)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (475)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (473)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (471)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (469)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (467)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (465)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (463)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (461)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (459)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (457)
+[2018.04.14-22.37.15:944][664]LogModuleManager: Shutting down and abandoning module PlacementMode (456)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module MaterialEditor (455)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (451)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module SessionServices (449)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module ViewportSnapping (447)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module ViewportInteraction (445)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module ClothPainter (443)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (442)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module LogVisualizer (439)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module IntroTutorials (437)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (436)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (433)
+[2018.04.14-22.37.15:945][664]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (432)
+[2018.04.14-22.37.16:130][664]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (429)
+[2018.04.14-22.37.16:131][664]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (427)
+[2018.04.14-22.37.16:131][664]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (425)
+[2018.04.14-22.37.16:131][664]LogModuleManager: Shutting down and abandoning module InputBindingEditor (423)
+[2018.04.14-22.37.16:131][664]LogModuleManager: Shutting down and abandoning module MergeActors (421)
+[2018.04.14-22.37.16:131][664]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (419)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module LocalizationService (418)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module HardwareTargeting (415)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (413)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module UndoHistory (411)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module XmlParser (409)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module Blutility (407)
+[2018.04.14-22.37.16:132][664]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (405)
+[2018.04.14-22.37.16:133][664]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (404)
+[2018.04.14-22.37.16:133][664]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (401)
+[2018.04.14-22.37.16:133][664]LogModuleManager: Shutting down and abandoning module SettingsEditor (399)
+[2018.04.14-22.37.16:134][664]LogModuleManager: Shutting down and abandoning module ProjectLauncher (397)
+[2018.04.14-22.37.16:134][664]LogModuleManager: Shutting down and abandoning module SessionFrontend (395)
+[2018.04.14-22.37.16:134][664]LogModuleManager: Shutting down and abandoning module ProfilerClient (393)
+[2018.04.14-22.37.16:134][664]LogModuleManager: Shutting down and abandoning module DeviceManager (391)
+[2018.04.14-22.37.16:134][664]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (390)
+[2018.04.14-22.37.16:166][664]LogModuleManager: Shutting down and abandoning module AutomationController (387)
+[2018.04.14-22.37.16:166][664]LogModuleManager: Shutting down and abandoning module AutomationWindow (385)
+[2018.04.14-22.37.16:166][664]LogModuleManager: Shutting down and abandoning module Layers (383)
+[2018.04.14-22.37.16:167][664]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (381)
+[2018.04.14-22.37.16:167][664]LogModuleManager: Shutting down and abandoning module DetailCustomizations (379)
+[2018.04.14-22.37.16:167][664]LogModuleManager: Shutting down and abandoning module PackagesDialog (377)
+[2018.04.14-22.37.16:167][664]LogModuleManager: Shutting down and abandoning module Persona (375)
+[2018.04.14-22.37.16:168][664]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (374)
+[2018.04.14-22.37.16:168][664]LogModuleManager: Shutting down and abandoning module AnimGraph (372)
+[2018.04.14-22.37.16:168][664]LogModuleManager: Shutting down and abandoning module Kismet (369)
+[2018.04.14-22.37.16:170][664]LogModuleManager: Shutting down and abandoning module GraphEditor (367)
+[2018.04.14-22.37.16:170][664]LogModuleManager: Shutting down and abandoning module ClassViewer (365)
+[2018.04.14-22.37.16:171][664]LogModuleManager: Shutting down and abandoning module Toolbox (363)
+[2018.04.14-22.37.16:171][664]LogModuleManager: Shutting down and abandoning module ModuleUI (361)
+[2018.04.14-22.37.16:171][664]LogModuleManager: Shutting down and abandoning module MovieSceneTools (359)
+[2018.04.14-22.37.16:171][664]LogModuleManager: Shutting down and abandoning module OutputLog (357)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module GammaUI (355)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module Documentation (353)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (351)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module MovieScene (349)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (347)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module LauncherPlatform (345)
+[2018.04.14-22.37.16:172][664]LogModuleManager: Shutting down and abandoning module AnalyticsET (343)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module PortalServices (341)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module PortalRpc (339)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module MessagingRpc (337)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module AIModule (335)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module GameplayDebugger (334)
+[2018.04.14-22.37.16:173][664]LogModuleManager: Shutting down and abandoning module AITestSuite (332)
+[2018.04.14-22.37.16:174][664]LogModuleManager: Shutting down and abandoning module ProfilerService (329)
+[2018.04.14-22.37.16:198][664]LogModuleManager: Shutting down and abandoning module TaskGraph (327)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module AlembicImporter (325)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module AlembicLibrary (324)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module GeometryCache (323)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (322)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (317)
+[2018.04.14-22.37.16:199][664]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (315)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module UObjectPlugin (313)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (311)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (309)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (307)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (305)
+[2018.04.14-22.37.16:200][664]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (303)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (301)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module GitSourceControl (299)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module SourceControl (298)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (295)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (293)
+[2018.04.14-22.37.16:201][664]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (291)
+[2018.04.14-22.37.16:202][664]LogModuleManager: Shutting down and abandoning module Paper2DEditor (289)
+[2018.04.14-22.37.16:202][664]LogModuleManager: Shutting down and abandoning module MeshPaint (288)
+[2018.04.14-22.37.16:202][664]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (285)
+[2018.04.14-22.37.16:202][664]LogModuleManager: Shutting down and abandoning module PluginBrowser (283)
+[2018.04.14-22.37.16:203][664]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (281)
+[2018.04.14-22.37.16:203][664]LogModuleManager: Shutting down and abandoning module CryptoKeys (279)
+[2018.04.14-22.37.16:203][664]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (277)
+[2018.04.14-22.37.16:203][664]LogModuleManager: Shutting down and abandoning module ImgMedia (273)
+[2018.04.14-22.37.16:205][664]LogModuleManager: Shutting down and abandoning module LinearTimecode (271)
+[2018.04.14-22.37.16:205][664]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (269)
+[2018.04.14-22.37.16:205][664]LogModuleManager: Shutting down and abandoning module MediaCompositing (267)
+[2018.04.14-22.37.16:205][664]LogModuleManager: Shutting down and abandoning module Media (266)
+[2018.04.14-22.37.16:211][664]LogModuleManager: Shutting down and abandoning module DatasmithContent (263)
+[2018.04.14-22.37.16:211][664]LogModuleManager: Shutting down and abandoning module CableComponent (261)
+[2018.04.14-22.37.16:211][664]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (259)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (257)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (255)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (253)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module SteamVRController (251)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (249)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module AndroidPermission (247)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (245)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (243)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module Paper2D (241)
+[2018.04.14-22.37.16:212][664]LogModuleManager: Shutting down and abandoning module DataValidation (239)
+[2018.04.14-22.37.16:213][664]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (237)
+[2018.04.14-22.37.16:213][664]LogModuleManager: Shutting down and abandoning module LevelEditor (236)
+[2018.04.14-22.37.16:217][664]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (235)
+[2018.04.14-22.37.16:217][664]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (233)
+[2018.04.14-22.37.16:219][664]LogModuleManager: Shutting down and abandoning module MainFrame (231)
+[2018.04.14-22.37.16:219][664]LogModuleManager: Shutting down and abandoning module HotReload (230)
+[2018.04.14-22.37.16:221][664]LogModuleManager: Shutting down and abandoning module ContentBrowser (226)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module TreeMap (224)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (221)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (219)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module FacialAnimation (217)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (215)
+[2018.04.14-22.37.16:224][664]LogModuleManager: Shutting down and abandoning module LiveLink (213)
+[2018.04.14-22.37.16:919][664]LogModuleManager: Shutting down and abandoning module ActorSequence (211)
+[2018.04.14-22.37.16:919][664]LogModuleManager: Shutting down and abandoning module UdpMessaging (209)
+[2018.04.14-22.37.17:020][664]LogModuleManager: Shutting down and abandoning module TcpMessaging (207)
+[2018.04.14-22.37.17:121][664]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (205)
+[2018.04.14-22.37.17:121][664]LogModuleManager: Shutting down and abandoning module PhysXVehicles (203)
+[2018.04.14-22.37.17:121][664]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (201)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (199)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (197)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (195)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module PacketHandler (193)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (191)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (189)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module MediaAssets (187)
+[2018.04.14-22.37.17:122][664]LogModuleManager: Shutting down and abandoning module Overlay (185)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module OverlayEditor (184)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module VREditor (181)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module StringTableEditor (179)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (177)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (175)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module FunctionalTesting (173)
+[2018.04.14-22.37.17:123][664]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (171)
+[2018.04.14-22.37.17:124][664]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (170)
+[2018.04.14-22.37.17:124][664]LogModuleManager: Shutting down and abandoning module UMG (167)
+[2018.04.14-22.37.17:124][664]LogModuleManager: Shutting down and abandoning module UMGEditor (166)
+[2018.04.14-22.37.17:124][664]LogModuleManager: Shutting down and abandoning module Sequencer (165)
+[2018.04.14-22.37.17:125][664]LogModuleManager: Shutting down and abandoning module MessageLog (162)
+[2018.04.14-22.37.17:125][664]LogModuleManager: Shutting down and abandoning module SlateReflector (157)
+[2018.04.14-22.37.17:125][664]LogModuleManager: Shutting down and abandoning module Slate (155)
+[2018.04.14-22.37.17:125][664]LogModuleManager: Shutting down and abandoning module EditorStyle (153)
+[2018.04.14-22.37.17:133][664]LogModuleManager: Shutting down and abandoning module MRMesh (151)
+[2018.04.14-22.37.17:133][664]LogModuleManager: Shutting down and abandoning module Messaging (149)
+[2018.04.14-22.37.17:133][664]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (147)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (145)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (143)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module Networking (140)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module Core (136)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module LevelSequence (134)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module KismetCompiler (132)
+[2018.04.14-22.37.17:134][664]LogModuleManager: Shutting down and abandoning module MeshUtilities (130)
+[2018.04.14-22.37.17:135][664]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (129)
+[2018.04.14-22.37.17:135][664]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (128)
+[2018.04.14-22.37.17:135][664]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (127)
+[2018.04.14-22.37.17:135][664]LogModuleManager: Shutting down and abandoning module MaterialBaking (123)
+[2018.04.14-22.37.17:135][664]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2018.04.14-22.37.17:254][664]LogModuleManager: Shutting down and abandoning module DerivedDataCache (116)
+[2018.04.14-22.37.17:269][664]LogDerivedDataCache: Shutdown
+[2018.04.14-22.37.17:269][664]LogModuleManager: Shutting down and abandoning module TargetPlatform (114)
+[2018.04.14-22.37.17:269][664]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (113)
+[2018.04.14-22.37.17:269][664]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (111)
+[2018.04.14-22.37.17:269][664]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (109)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
+[2018.04.14-22.37.17:270][664]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (95)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (93)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (91)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (89)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.04.14-22.37.17:271][664]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (79)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2018.04.14-22.37.17:272][664]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (71)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (69)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (67)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (65)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (63)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2018.04.14-22.37.17:273][664]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2018.04.14-22.37.17:274][664]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2018.04.14-22.37.17:274][664]LogModuleManager: Shutting down and abandoning module PhysXCooking (54)
+[2018.04.14-22.37.17:274][664]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (52)
+[2018.04.14-22.37.17:275][664]LogModuleManager: Shutting down and abandoning module XMPP (51)
+[2018.04.14-22.37.17:275][664]LogModuleManager: Shutting down and abandoning module HTTP (49)
+[2018.04.14-22.37.17:275][664]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.14-22.37.17:275][664]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0785CDE9-2304-000F-0024-02F4AF5E6910%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.1-0%2B%2B%2BUE4%2BRelease-4.19&UserID=0002f6ac2c04110e002300dabdeeed44%7C%7C8e964c96eddc4afb81e8b424b475ae7b&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.04.14-22.37.17:302][664]LogModuleManager: Shutting down and abandoning module SSL (48)
+[2018.04.14-22.37.17:306][664]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (44)
+[2018.04.14-22.37.17:306][664]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (40)
+[2018.04.14-22.37.17:306][664]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (38)
+[2018.04.14-22.37.17:306][664]LogModuleManager: Shutting down and abandoning module SteamVR (36)
+[2018.04.14-22.37.17:307][664]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.14-22.37.17:307][664]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.14-22.37.17:307][664]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.14-22.37.17:308][664]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.14-22.37.17:308][664]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.14-22.37.17:308][664]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.14-22.37.17:308][664]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.14-22.37.17:310][664]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.14-22.37.17:310][664]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.14-22.37.17:311][664]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.14-22.37.17:312][664]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.14-22.37.17:314][664]LogExit: Exiting.
+[2018.04.14-22.37.17:314][664]LogInit: Tearing down SDL.
+[2018.04.14-22.37.17:350][664]Log file closed, 04/15/18 00:37:17
