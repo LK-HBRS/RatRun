@@ -1,0 +1,9 @@
+Lizenzen und Bedingungen:
+
+Unreal Engine:
+kostenlose veröffentlichung ohne probleme, bei Einnahmen über (3000€?) abgaben in Höhe von (5%?)
+
+
+texturelib.com:
+
+keine Limitation für uns nur evtl. der Seite credit geben für die Texturen(nicht zwingend).
