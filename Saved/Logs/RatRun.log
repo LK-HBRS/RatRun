@@ -529,3 +529,49 @@ LogInit: Object subsystem initialized
 [2018.05.16-07.57.11:989][587]LogSavePackage: Save=1.65ms
 [2018.05.16-07.57.11:989][587]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap_BuiltDaE019F20044EB6D0BB803D481563E5B69.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
 [2018.05.16-07.57.11:991][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.05.16-07.58.23:862][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-07.58.24:287][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-07.58.24:878][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-07.58.25:420][209]LogEditorViewport: Clicking Background
+[2018.05.16-08.02.07:845][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-08.08.02:190][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.08.04:727][ 81]LogActorFactory: Actor Factory created Plane
+[2018.05.16-08.08.05:742][142]LogActorFactory: Actor Factory created Plane
+[2018.05.16-08.08.08:404][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.08.18:532][906]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.05.16-08.08.18:873][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.08.20:189][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.16-08.08.22:847][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-08.09.00:806][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-08.09.01:570][475]LogSavePackage: Save=83.55ms
+[2018.05.16-08.09.01:571][475]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap12505D78411DD190C259088A310FDC79.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.05.16-08.09.01:575][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.05.16-08.09.01:611][475]LogSavePackage: Save=1.29ms
+[2018.05.16-08.09.01:611][475]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap_BuiltDa486D60414301F2821A599A863E4266C6.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.05.16-08.09.01:612][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.05.16-08.09.02:631][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.02:843][542]LogSavePackage: Save=77.53ms
+[2018.05.16-08.09.02:843][542]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMapF0B2A1254D69A94DCC9EDDB3E355B47C.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.05.16-08.09.02:846][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.05.16-08.09.02:868][542]LogSavePackage: Save=0.97ms
+[2018.05.16-08.09.02:868][542]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap_BuiltDa70D507304880C0CA3080F58C8DB77503.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.05.16-08.09.02:869][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.05.16-08.09.05:234][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.44:926][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.54:668][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.57:894][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.58:107][  4]LogSavePackage: Save=79.51ms
+[2018.05.16-08.09.58:107][  4]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap7EC0FAD14D78084972CC4CAB3410F305.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.05.16-08.09.58:110][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.05.16-08.09.58:130][  4]LogSavePackage: Save=1.00ms
+[2018.05.16-08.09.58:130][  4]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap_BuiltDa5063FCEF4A4A97D1DD473ABB0F6E1557.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.05.16-08.09.58:131][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.05.16-08.09.58:546][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.16-08.09.58:742][ 34]LogSavePackage: Save=80.64ms
+[2018.05.16-08.09.58:742][ 34]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMapD639B7914B10766C6C64DBAAC331ED01.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.05.16-08.09.58:746][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.05.16-08.09.58:765][ 34]LogSavePackage: Save=0.88ms
+[2018.05.16-08.09.58:765][ 34]LogSavePackage: Moving '../../../../../../Users/LK/Documents/GitHub/RatRun/Saved/2DSideScrollerExampleMap_BuiltDaBBCE21AE4BC4C07395ADED94625F167C.tmp' to '../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.05.16-08.09.58:766][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/LK/Documents/GitHub/RatRun/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.05.16-08.09.59:260][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.16-08.10.05:757][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
