@@ -1,0 +1,24 @@
+Game sachen:
+1. Neue Hindernisse einbauen(LvL2), ordentliche Hintergründe/Boden
+2. LvL wechsel anders gestalten
+3. LvL wechsel animieren -> fall in loch/aufprall auf Boden
+4. Wechsel von LvL 2 auf LvL 1
+5. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
+6. database entfernen?
+7. optimierungen?
+8. assets besser anordnen
+
+
+Assets:
+1. Boden
+2. Background lvl2
+3. Loch (wechsel zu lvl2)
+4. boden LVL2 (wechsel zu lvl 1)
+5. todes animation
+6. fall animation (lvl2)
+7 in loch fall animation (wechsel zu lvl2)
+8. aufprall auf boden (wechsel zu lvl1)
+
+
+
+Presentation!!!
