@@ -7,7 +7,7 @@ Game sachen:
 6. database entfernen?
 7. optimierungen?
 8. assets besser anordnen
-9. Sterbeannimation
+10. Sound
 
 Assets:
 1. Boden
