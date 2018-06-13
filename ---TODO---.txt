@@ -1,13 +1,13 @@
 Game sachen:
-1. Neue Hindernisse einbauen(LvL2), ordentliche Hintergründe/Boden
+1. Neue Hindernisse einbauen(LvL2), ordentliche HintergrÃ¼nde/Boden
 2. LvL wechsel anders gestalten
 3. LvL wechsel animieren -> fall in loch/aufprall auf Boden
 4. Wechsel von LvL 2 auf LvL 1
-5. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
+5. Geschwindigkeit erhÃ¶hen nach jedem wechsel von 2 nach 1
 6. database entfernen?
 7. optimierungen?
 8. assets besser anordnen
-
+9. Sterbeannimation
 
 Assets:
 1. Boden
