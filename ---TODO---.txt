@@ -1,4 +1,4 @@
-Game sachen:
+﻿Game sachen:
 1. Neue Hindernisse einbauen(LvL2), ordentliche Hintergründe/Boden
 2. LvL wechsel anders gestalten
 3. LvL wechsel animieren -> fall in loch/aufprall auf Boden
@@ -13,7 +13,6 @@ Game sachen:
 
 
 Assets:
-1. Boden
 2. Background lvl2
 3. Loch (wechsel zu lvl2)
 4. boden LVL2 (wechsel zu lvl 1)
