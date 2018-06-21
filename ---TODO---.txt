@@ -13,8 +13,6 @@
 
 
 Assets:
-2. Background lvl2
-3. Loch (wechsel zu lvl2)
 4. boden LVL2 (wechsel zu lvl 1)
 5. todes animation
 6. fall animation (lvl2)
