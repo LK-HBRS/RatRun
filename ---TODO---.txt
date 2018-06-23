@@ -15,7 +15,6 @@
 Assets:
 4. boden LVL2 (wechsel zu lvl 1)
 5. todes animation
-6. fall animation (lvl2)
 7 in loch fall animation (wechsel zu lvl2)
 8. aufprall auf boden (wechsel zu lvl1)
 9. 1/2 weitere Büsche (LVL1)
