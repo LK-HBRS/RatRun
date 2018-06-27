@@ -2,17 +2,15 @@
 1. Neue Hindernisse einbauen(LvL2), ordentliche Hintergründe/Boden
 2. LvL wechsel anders gestalten
 3. LvL wechsel animieren -> fall in loch/aufprall auf Boden
-4. Wechsel von LvL 2 auf LvL 1
 5. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
-6. Spiel ist zu schwer (sprunghöhe, geschwindigkeit)
 7. Scoreboard fixen
 8. optimierungen?
 9. assets besser anordnen (Büsche und Hintergrund resize)
-11. Sound
 12. Pfeile schräg schießen (LVL2)
 
 
 Assets:
+1. Fall animation
 4. boden LVL2 (wechsel zu lvl 1)
 5. todes animation
 7 in loch fall animation (wechsel zu lvl2)
