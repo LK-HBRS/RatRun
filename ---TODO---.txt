@@ -1,11 +1,10 @@
 ﻿Game sachen:
 (1. LvL wechsel animieren -> aufprall auf Boden (eigentlich schon fertig muss nur mit davids asstets getestet werden) )
-2. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
-3. Scoreboard fixen
-4. Gyroskop fixen?
-5. optimierungen?
-6. assets besser anordnen (Büsche evtl besser spawnen und Hintergrund resize)
-7. Pfeile schräg schießen (LVL2)
+2. Scoreboard fixen
+3. Gyroskop fixen?
+4. optimierungen?
+5. assets besser anordnen (Büsche evtl besser spawnen und Hintergrund resize)
+6. Pfeile schräg schießen (LVL2)
 
 
 Assets:
