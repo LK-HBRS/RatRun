@@ -1,19 +1,17 @@
 ﻿Game sachen:
-1. Neue Hindernisse einbauen(LvL2), ordentliche Hintergründe/Boden
-2. LvL wechsel anders gestalten
-3. LvL wechsel animieren -> fall in loch/aufprall auf Boden
-5. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
-7. Scoreboard fixen
-8. optimierungen?
-9. assets besser anordnen (Büsche und Hintergrund resize)
-12. Pfeile schräg schießen (LVL2)
+(1. LvL wechsel animieren -> aufprall auf Boden (eigentlich schon fertig muss nur mit davids asstets getestet werden) )
+2. Geschwindigkeit erhöhen nach jedem wechsel von 2 nach 1
+3. Scoreboard fixen
+4. Gyroskop fixen?
+5. optimierungen?
+6. assets besser anordnen (Büsche evtl besser spawnen und Hintergrund resize)
+7. Pfeile schräg schießen (LVL2)
 
 
 Assets:
 1. Fall animation
-4. boden LVL2 (wechsel zu lvl 1)
-5. todes animation
-7 in loch fall animation (wechsel zu lvl2)
-8. aufprall auf boden (wechsel zu lvl1)
-9. 1/2 weitere Büsche (LVL1)
-10. 1/2 weitere Lianen (LVL1)
+2. boden LVL2 (wechsel zu lvl 1)
+3. todes animation
+4. Ureinwohner animiert für menü screen
+5. 1/2 weitere Büsche (LVL1)
+6. 1/2 weitere Lianen (LVL1)
