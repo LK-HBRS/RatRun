@@ -8,7 +8,6 @@
 
 
 Assets:
-1. Fall animation
 2. boden LVL2 (wechsel zu lvl 1)
 3. todes animation
 4. Ureinwohner animiert für menü screen
