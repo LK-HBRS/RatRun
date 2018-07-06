@@ -1,15 +1,18 @@
 ﻿Game sachen:
-(1. LvL wechsel animieren -> aufprall auf Boden (eigentlich schon fertig muss nur mit davids asstets getestet werden) )
-2. Scoreboard fixen
-3. Gyroskop fixen?
-4. optimierungen?
-5. assets besser anordnen (Büsche evtl besser spawnen und Hintergrund resize)
-6. Pfeile schräg schießen (LVL2)
+1. Dreh animation bei LVL wechsel einfügen
+2. Ureinwohner ins Menü einfügen
+3. Hintergrund LVL2 fixen
+4. Pfeile und Äste in LVL2 anhalten wenn LVLEnde Spawnt (gleicher Ansatz wie LVL1)
+5. Gyroskop fixen?
+6. Scoreboard fixen?
+7. assets besser anordnen (Büsche evtl besser spawnen und Hintergrund resize)
+8. Pfeile schräg schießen (LVL2)
+
 
 
 Assets:
-5. Game Over schrift als Pixelart (aktuell sieht das blöd aus, wenn die Schrift so hohe Auflösung hat)
-7. Button assets (damit die Buttons auch ein Urwald theme haben und nicht standart grau sind, müssen auch kein pixelart undbedingt sein)
-7. 1/2 weitere Büsche (LVL1)
-8. 1/2 weitere Lianen (LVL1)
-9. Thumbnail
+1. Game Over schrift als Pixelart (aktuell sieht das blöd aus, wenn die Schrift so hohe Auflösung hat)
+2. Button assets (damit die Buttons auch ein Urwald theme haben und nicht standart grau sind, müssen auch kein pixelart undbedingt sein)
+3. 1/2 weitere Büsche (LVL1)
+4. 1/2 weitere Lianen (LVL1)
+5. Thumbnail
