@@ -8,7 +8,6 @@
 
 
 Assets:
-2. boden LVL2 (wechsel zu lvl 1)
 5. Game Over schrift als Pixelart (aktuell sieht das blöd aus, wenn die Schrift so hohe Auflösung hat)
 7. Button assets (damit die Buttons auch ein Urwald theme haben und nicht standart grau sind, müssen auch kein pixelart undbedingt sein)
 7. 1/2 weitere Büsche (LVL1)
