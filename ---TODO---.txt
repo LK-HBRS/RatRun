@@ -11,7 +11,6 @@
 
 
 Assets:
-2. Button assets (damit die Buttons auch ein Urwald theme haben und nicht standart grau sind, müssen auch kein pixelart undbedingt sein)
-3. 1/2 weitere Büsche (LVL1)
-4. 1/2 weitere Lianen (LVL1)
-5. Thumbnail
+1. 1/2 weitere Büsche (LVL1)
+2. 1/2 weitere Lianen (LVL1)
+3. Thumbnail
